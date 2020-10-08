@@ -1,0 +1,472 @@
+@media only screen and (min-width: 840px){
+
+.body{
+
+    padding-left: 50px;
+    padding-right:50px;
+
+}
+
+.header{
+
+    display: grid;
+    grid-template-columns: 65% 35%;
+    
+}
+
+.logo{
+
+    display:grid;
+    height:160px;
+    justify-self:start;
+    position: relative;
+    left:10px;
+    top:15px;
+    
+    
+}
+
+.title{
+
+
+
+    display:grid;
+    font-family:"Mallanna", sans-serif;
+    font-size:100px;
+    color:#2e294e;
+    
+    justify-self:end;
+    
+
+    position:relative;
+    right:100px;
+    bottom:10px;
+ 
+  
+    
+}
+
+/* Navigation */
+
+.sticky{
+
+    position: sticky;
+    top:0px;
+    background-color: white;
+   
+}
+
+.navigation{
+
+    display:grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    
+    padding-top:15px;
+    padding-bottom:15px;
+  
+}
+
+.july, .august, .september, .october{
+
+
+    display:grid;
+    align-content:center;
+    justify-content:center;
+
+    text-decoration: none;
+    background-color: none;
+    font-family: "Mallanna", sans-serif;
+    font-size:20px;
+    color:#2e294e;
+    width:150px;
+    height:50px;
+
+    border: 1px solid #2e294e;
+    border-radius: 50px; 
+
+    justify-self:start;
+
+   
+
+}
+
+
+.home-link{
+
+    display:grid;
+    justify-content: center;
+    align-content:center;
+    
+    text-decoration: none;
+    color:white;
+    font-family:"Mallanna", sans-serif;
+    font-size:22px;
+
+    width:150px;
+    height:52px;
+    background-color:#2e294e;
+    border: 1px solid #2e294e;
+    
+    border-radius: 50px;
+
+    align-self: center;
+    justify-self:end;
+  
+}
+
+
+/*Blog Post*/
+
+
+.reflection_block{
+
+    margin-left:80px;
+    margin-right:80px;
+    margin-top:90px;
+    border-radius:50px;
+    background-color: #FED766;
+
+}
+
+/* Monthly Heading */
+
+.july_title,.august_title,.september_title,.october_title{
+
+    position:relative;
+    text-align:center;
+    text-decoration: none;
+    
+    padding:10px;
+    
+    font-family: "Mallanna", sans-serif;
+    font-size:70px;
+    color:#2e294e;
+}
+
+/* Blog Post Title */
+.reflection_heading{
+
+
+    display:grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-between;
+    padding-top:20px;
+}
+
+.reflection_title{
+
+    font-family: "Mallanna", sans-serif;
+    font-size:60px;
+    color:#2e294e;
+   
+    justify-self:start;
+    padding-left:100px;
+
+
+
+}
+.reflection_date{
+
+    font-family: "Mallanna", sans-serif;
+    font-size:60px;
+    color:#2e294e;
+    /*background-color: blue;*/
+    justify-self:end;
+    padding-right:100px;
+
+
+
+}
+
+/* Blog Post Content */
+
+.reflection_content{
+
+    display:grid;
+    grid-template-columns: 50% 50%;
+    
+}
+
+.post_image{
+
+    
+    /* background-color: red; */
+    margin:50px;
+    width:400px;
+    justify-self:center;
+    
+}
+
+.post_text{
+
+   
+    /*background-color: seagreen;*/
+    justify-self:center;
+    align-self:center;
+    margin:50px;
+
+    font-family: "Mallanna", sans-serif;
+    font-size:25px;
+    color:#2e294e;
+
+
+}
+
+.back_botton{
+
+    position:relative;
+    text-align:center;
+    text-decoration: none;
+    
+    padding:35px;
+    
+    font-family: "Mallanna", sans-serif;
+    font-size:30px;
+    color:#2e294e;
+
+
+    
+
+}
+
+.button{
+    padding:20px;
+    position:relative;
+    text-align:center;
+
+}
+
+}
+
+@media only screen and (max-width: 840px){
+
+    .body{
+    
+        padding-left: 25px;
+        padding-right:25px;
+    }
+    
+    .header{
+    
+        display:grid;
+        grid-template-columns: 65% 35%;
+        
+    }
+    
+    .logo{
+    
+        display:grid;
+        height:90px;
+        justify-self:start;
+        position: relative;
+        left:5px;
+        top:15px;
+        
+        
+    }
+    
+    .title{
+    
+        display:grid;
+        grid-column: 2;
+        font-family:"Mallanna", sans-serif;
+        font-size:50px;
+        color:#2e294e;
+        justify-self:end;
+     
+        position: relative;
+        right:120px;
+        bottom:10px
+        
+    
+      
+        
+    }
+    
+    /* Navigation */
+    
+    .sticky{
+
+        position: sticky;
+        top:0px;
+        background-color: white;
+        
+     
+        
+       
+    }
+    .navigation{
+    
+        display:grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        justify-content: space-evenly;
+        
+        
+    
+        padding-top:10px;
+        padding-bottom:10px;
+        padding-left:10px;
+        padding-right:10px;
+    
+    
+    }
+    
+    .july, .august, .september, .october{
+    
+        font-family: "Mallanna", sans-serif;
+        font-size:16px;
+        color:#2e294e;
+        text-decoration:none;
+    
+        justify-self:space-evenly;
+    
+    }
+
+
+    
+    .home-link{
+    
+        display:grid;
+        justify-content: center;
+        align-content:center;
+        
+        text-decoration: none;
+        color:white;
+        font-family:"Mallanna", sans-serif;
+        font-size:17px;
+    
+        width:75px;
+        height:30px;
+        background-color:#2e294e;
+        
+        border-radius: 52px;
+    
+        justify-self:center;
+        align-self:center;
+      
+    }
+    
+    .july_title,.august_title,.september_title,.october_title{
+
+        position:relative;
+        text-align:center;
+        text-decoration: none;
+        
+        padding:10px;
+        
+        font-family: "Mallanna", sans-serif;
+        font-size:60px;
+        color:#2e294e;
+    }
+    
+    
+    /*Blog Post*/
+    
+    
+    .reflection_block{
+    
+        margin-left:5px;
+        margin-right:5px;
+        margin-top:70px;
+        
+        border-radius:50px;
+        background-color: #FED766;
+        
+        
+    
+    }
+    
+    /* Blog Post Title */
+    
+    .reflection_heading{
+    
+    
+        display:grid;
+        grid-template-rows: 50% 50%;
+        justify-content: center;
+        padding-top:20px;
+    }
+    
+    .reflection_title{
+    
+        font-family: "Mallanna", sans-serif;
+        font-size:45px;
+        color:#2e294e;
+        /*background-color: blue;*/
+        justify-self:center;
+        
+    
+    
+    
+    }
+    .reflection_date{
+    
+        font-family: "Mallanna", sans-serif;
+        font-size:45px;
+        color:#2e294e;
+        /*background-color: blue;*/
+        justify-self:center;
+      
+    
+    
+    
+    }
+    
+    /* Blog Post Content */
+    
+    .reflection_content{
+    
+        display:grid;
+        grid-template-rows: 50% 50%;
+        
+    }
+    
+    .post_image{
+    
+        
+        /* background-color: red; */
+        margin-top:50px;
+        width:300px;
+        justify-self:center;
+        
+    }
+    
+    .post_text{
+    
+       
+        /*background-color: seagreen; */
+        justify-self:center;
+        align-self:center;
+        
+        margin:20px;
+      
+    
+        font-family: "Mallanna", sans-serif;
+        font-size:19px;
+        color:#2e294e;
+    
+    
+    }
+
+    .back_botton{
+
+position:relative;
+text-align:center;
+text-decoration: none;
+
+padding:35px;
+
+font-family: "Mallanna", sans-serif;
+font-size:30px;
+color:#2e294e;  
+
+    }
+
+    .button{
+        padding:20px;
+        position:relative;
+        text-align:center;
+    
+    }
+
+    }
